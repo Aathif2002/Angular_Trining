@@ -30,4 +30,12 @@ console.log(c)
 console.log(a) */
 
 
-
+function sample()
+{
+    var a,b,c;
+    a=23;
+    b=45;
+    c=a*b;
+    console.log(c)
+}
+sample()
