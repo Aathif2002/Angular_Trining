@@ -1,0 +1,32 @@
+body{
+    background:linear-gradient(to right,#C33764,#1D2671);
+}
+.stop_watch{
+    border-radius: 50%;
+    box-shadow: black 0px 5px 10px 0px;
+    background:linear-gradient(to right,#A9F1DF , #FFBBBB);
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+button{
+    width: 80px;
+    height: 50px;
+    font-size: 16px;
+}
+.timer{
+    text-align: center;
+    font-size:xx-large;
+    margin-top: 105px;
+}
+#timeshow{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size:x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

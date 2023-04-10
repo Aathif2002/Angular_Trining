@@ -17,25 +17,15 @@ a.push(4)
 console.log(a)
 b=a
 b.push(5)
-console.log(a)
-c=[]
-for(let x of b)
+consol
+
+const name =['aathif','aafiya','farida']
+const doThis = function()
 {
-    c.push(x)
+    console.log("do it right here")
 }
+const person ={ sno:1,name:"aathif",city:"chennai"}
+module.exports={people:name,fun:doThis,personObject:person}
+*/
 
-console.log(c)
-c.push("aathif")
-console.log(c)
-console.log(a) */
-
-
-function sample()
-{
-    var a,b,c;
-    a=23;
-    b=45;
-    c=a*b;
-    console.log(c)
-}
-sample()
+const axios = require('axios')
