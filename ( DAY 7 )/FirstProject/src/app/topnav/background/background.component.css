@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    background-size: cover;
+    width: 100%; 
+}
+.image
+{
+    background-image: url('http://localhost/firstproject2.png');
+    height:400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.image h1{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+
+    padding: 3%;
+}
+.image h5{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    padding-top: 0%;
+    
+   
+}
+
+.title
+{
+    
+    padding: 2% 10%;
+}

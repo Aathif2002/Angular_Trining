@@ -1,0 +1,13 @@
+*
+{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+#footer {
+    padding-bottom: 200px;
+    color: rgb(23, 23, 47);
+    background-color:#263a65;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}

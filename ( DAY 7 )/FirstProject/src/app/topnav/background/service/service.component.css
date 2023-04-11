@@ -1,0 +1,27 @@
+.service-box{
+    height:165px;
+    width: 200px;
+    margin: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #405279;
+    color: white;
+    float: left;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 75%;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(179, 178, 178);
+    font-size: 75%;
+    padding: 10;
+    margin: 10;
+
+}
