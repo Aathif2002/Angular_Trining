@@ -1,0 +1,13 @@
+.topnavbar{
+    background-color: aquamarine;
+    width:1000px;
+    margin:auto;
+    padding:5px;
+}
+.topnavbar h2{
+    color: red;
+}
+.boxes a{
+    margin: auto;
+    text-align: center;
+}
