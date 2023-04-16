@@ -1,12 +1,32 @@
-.topnavbar{
-    background-color: rgb(127, 208, 255);
-    margin:auto;
-    padding:5px;
+.about{
+    height: 220px;
+    background-color: rgb(46, 46, 67);
+    position: relative;
 }
-.topnavbar h2{
-    color: black;
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: White;
+    padding: 20px;
 }
-.topnavbar .content{
-    color:black;
-    
+
+.content {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: lightgrey;
+    padding: 20px;
+    width: 600px;
+}
+
+.image{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
 }

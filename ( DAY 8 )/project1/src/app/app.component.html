@@ -1,0 +1,9 @@
+<app-topnav></app-topnav>
+<app-first></app-first>
+
+<h3>OUR SERVICES</h3>
+
+ <app-servicebox *ngFor="let x of services;let y=index" 
+ [title]="x" [description]="descriptions[y]"></app-servicebox>
+
+ 
