@@ -1,0 +1,28 @@
+<div class="head"><h2>Registration Form</h2></div>
+<mat-form-field appearance="fill">
+    <mat-label>Firstname</mat-label>
+    <input matInput>
+</mat-form-field>
+<mat-form-field appearance="fill">
+    <mat-label>Lastname</mat-label>
+    <input matInput>
+</mat-form-field>
+<mat-form-field appearance="fill">
+    <mat-label>Education</mat-label>
+    <mat-select>
+        <mat-option value="Btech">B.Tech</mat-option>
+        <mat-option value="Bsc">B.Sc</mat-option>
+        <mat-option value="Bca">BCA</mat-option>
+        <mat-option value="Mca">MCA</mat-option>
+        </mat-select>
+</mat-form-field>
+<mat-form-field appearance="fill">
+    <mat-label>Choose a date</mat-label>
+    <input matInput [matDatepicker]="dpicker">
+    <mat-datepicker-toggle matIconsuffix [for]="dpicker"></mat-datepicker-toggle>
+    <mat-datepicker #dpicker></mat-datepicker>
+</mat-form-field>
+
+<div class="sub">
+    <button mat-button>Submit</button>
+</div>

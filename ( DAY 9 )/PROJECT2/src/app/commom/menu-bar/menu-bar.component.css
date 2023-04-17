@@ -1,0 +1,17 @@
+.menu-bar{
+    border: 2px solid black;
+}
+.title{
+    color: wheat;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 80px;
+}
+img{
+    width: 4.5%;
+    margin-left: 800px;
+}
