@@ -1,0 +1,20 @@
+<div class="full">
+    <div class="sidebar">
+        <p class="frame">CATOGORY :</p>
+        <select [(ngModel)]="selected" class="bx">
+            <option *ngFor="let x of type">{{x}}</option>
+        </select>
+    </div>
+    <div class="slider">
+        <p> Price Range:</p>
+        <mat-slider min="100" max="10000">
+            <input [(value)] = "min_v" [(ngModel)]="min_v" matSliderStartThumb>
+            <input [(value)] = "max_v" [(ngModel)]="max_v" matSliderEndThumb>
+        </mat-slider>
+        </div>
+        <p>{{min_v | currency:'USD'}} to {{max_v | currency:'USD'}}</p>
+        </div>
+<div class="cont">
+<app-shop-box class="a" *ngFor="let x of productlist | typefilter:selected | pricefilter:min_v:max_v" [products]="x"></app-shop-box>
+
+</div>

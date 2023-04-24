@@ -1,0 +1,30 @@
+.service{
+    
+    width: 320px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    height: 300px;
+}
+img{
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+}
+p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+span{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(84, 87, 88);
+    padding-left: 220px;
+}
+mat-card{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.cost p{
+    color: rgb(3, 123, 3);
+}

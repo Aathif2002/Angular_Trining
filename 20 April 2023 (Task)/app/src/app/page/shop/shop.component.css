@@ -1,0 +1,45 @@
+/* .a{
+    display: flex;
+} */
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    
+}
+.sidebar{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(7, 32, 170);
+    font-weight: bold;
+    margin-left: 150px;
+    font-size: 17px;
+    margin-top: 10px;
+    
+}
+select{
+    width: 300px;
+    margin-right: 100px;
+}
+option{
+    font-family: 'Times New Roman', Times, serif;
+}
+.slider{
+    width: 130px;
+    border-right: 2px solid rgb(7, 32, 170);
+}
+.slider p{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+    background-color:rgb(7, 32, 170) ;
+    
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(108, 10, 125);
+    font-weight: bold; 
+}

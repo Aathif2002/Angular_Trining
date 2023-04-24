@@ -1,0 +1,16 @@
+<mat-card class="service">
+    <div class="id">
+        <p>{{products.name}}</p>
+    </div>
+ 
+    <div class="image-holder">
+        <img src="http://localhost/{{products.image}}">
+    </div>
+
+    <div class="cost">
+         <p>{{products.price | currency:'USD'}}</p>
+    </div>
+    <div class="brand">
+        <span>{{products.type}}</span>
+    </div>
+</mat-card>
