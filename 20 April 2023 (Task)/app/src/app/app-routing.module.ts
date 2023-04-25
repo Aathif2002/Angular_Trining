@@ -1,12 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { FeedbackComponent } from './common/navbar/feedback/feedback.component';
-import { HomeComponent } from './common/navbar/home/home.component';
+
+
+import { FeedbackComponent } from './feedback/feedback.component';
+import { ShopComponent } from './page/shop/shop.component';
 
 
 const routes: Routes = [
-  {path:"home" , component:HomeComponent},
-  {path:"feedback", component:FeedbackComponent}
+  {path:"",component:ShopComponent},
+  {path:"feedback", component:FeedbackComponent},
+  {path:"shop",component:ShopComponent}
 ];
 
 @NgModule({
