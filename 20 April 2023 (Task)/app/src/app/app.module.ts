@@ -12,6 +12,9 @@ import { FormsModule } from '@angular/forms';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TypefilterPipe } from './pipe/typefilter.pipe';
 import { PricefilterPipe } from './pipe/pricefilter.pipe';
+import { FeedbackComponent } from './common/navbar/feedback/feedback.component';
+import { HomeComponent } from './common/navbar/home/home.component';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { PricefilterPipe } from './pipe/pricefilter.pipe';
     ShopComponent,
     ShopBoxComponent,
     TypefilterPipe,
-    PricefilterPipe
+    PricefilterPipe,
+    FeedbackComponent,
+    HomeComponent,
+
   ],
   imports: [
     BrowserModule,
