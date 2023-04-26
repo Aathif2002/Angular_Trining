@@ -1,0 +1,42 @@
+<div id="form"><h1 style="margin-bottom: 50px;">Register your complaints</h1>
+    <div class="ele">
+        <div class="formbox">
+            <h3>First Name: </h3>
+            <input type="text" [(ngModel)]="fname">  
+        </div>
+       
+         <div class="formbox">
+            <h3 style="margin-right: 70px;">Email: </h3>
+            <!-- <input type="email" [(ngModel)]="email">* -->
+            <input type="email" [(ngModel)]="email"> 
+        </div>
+       
+       <div class="formbox">
+            <h3 style="margin-right: 40px;">Message:</h3>
+            <textarea [(ngModel)]="message"></textarea>
+        </div> 
+    <mat-form-field  class="example-full-width" appearance="fill">
+            <mat-label>Choose the product</mat-label>
+            <input type="text"
+                   placeholder="Pick one"
+                   aria-label="Number"
+                   matInput
+                   [matAutocomplete]="auto">
+            <mat-autocomplete #auto="matAutocomplete">
+              <mat-option *ngFor="let option of options" [value]="option">
+                {{option}}
+              </mat-option>
+            </mat-autocomplete>
+          </mat-form-field> 
+
+          <div style="margin:30px;"><button class="btn btn-primary" (click)="submit()">Submit complaint</button></div> 
+</div>
+    </div>
+        
+    <div class="alert alert-info" *ngIf="errors.length>0">
+        <ul >
+            <li *ngFor="let x of errors">{{x}}</li>
+        </ul>
+    </div>
+
+   
