@@ -1,4 +1,4 @@
-<div id="form"><h1 style="margin-bottom: 50px;">Register your complaints</h1>
+<div id="form"><h1>Register your complaints</h1>
     <div class="ele">
         <div class="formbox">
             <h3>First Name: </h3>
@@ -6,13 +6,13 @@
         </div>
        
          <div class="formbox">
-            <h3 style="margin-right: 70px;">Email: </h3>
-            <!-- <input type="email" [(ngModel)]="email">* -->
+            <h3>Email: </h3>
+        
             <input type="email" [(ngModel)]="email"> 
         </div>
        
        <div class="formbox">
-            <h3 style="margin-right: 40px;">Message:</h3>
+            <h3>Message:</h3>
             <textarea [(ngModel)]="message"></textarea>
         </div> 
     <mat-form-field  class="example-full-width" appearance="fill">
@@ -29,7 +29,7 @@
             </mat-autocomplete>
           </mat-form-field> 
 
-          <div style="margin:30px;"><button class="btn btn-primary" (click)="submit()">Submit complaint</button></div> 
+          <div><button class="btn-primary" (click)="submit()">Submit complaint</button></div> 
 </div>
     </div>
         
