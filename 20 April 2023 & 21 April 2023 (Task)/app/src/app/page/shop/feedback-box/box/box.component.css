@@ -1,0 +1,21 @@
+.example-card{
+    background-color: rgb(3, 3, 94);
+    margin: 20px;
+    width: 490px;
+    border:2px solid rgb(3, 3, 94);
+    margin-left:40px;
+    
+}
+.txt{
+    color:rgb(3, 3, 94);
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+p{
+    height:fit-content;
+    background-color: white;
+    padding:20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+}

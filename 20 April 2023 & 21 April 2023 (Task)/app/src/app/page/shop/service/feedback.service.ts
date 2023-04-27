@@ -8,18 +8,18 @@ import {Observable} from 'rxjs'
 })
 export class FeedbackService {
   httpOptions:any;
-  constructor(private http:HttpClient){
+  constructor(private http:HttpClient) { }
 
+  getFeedback():Observable<any> {
+    return this.http.get("http://localhost:3000/complaints")
   }
- 
-  postComplaint(obj:any):Observable<any>{
 
+  postFeedback(obj:any):Observable<any>{
+  
     this.httpOptions =  new HttpHeaders({
-      'Content-Type': 'application/json',
+      'Content-Type':  'application/json',
     })
-
-  return this.http.post("http://localhost:4500/complaints",obj,this.httpOptions);
- }
+  
+  return this.http.post("http://localhost:3000/complaints",obj,this.httpOptions);
+  }
 }
-
-

@@ -1,0 +1,22 @@
+<div class="full">
+  <div class="one">
+    <div class="details">
+    <h1>{{details.name}}</h1>
+
+    <div class="image">
+        <img src="http://localhost/{{details.image}}" />
+    </div>
+    
+    <p *ngFor="let x of details.description">
+        {{x}}
+    </p>
+ </div>
+   
+</div>
+<div class="feedback">
+    <app-feedback-form></app-feedback-form>
+    <app-feedback-box></app-feedback-box>
+</div>
+</div>
+
+

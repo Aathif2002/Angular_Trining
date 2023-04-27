@@ -28,3 +28,7 @@ mat-card{
 .cost p{
     color: rgb(3, 123, 3);
 }
+a{
+    text-decoration: none;
+    list-style: none;
+}

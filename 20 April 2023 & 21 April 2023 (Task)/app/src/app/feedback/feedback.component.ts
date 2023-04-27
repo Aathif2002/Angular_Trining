@@ -44,7 +44,7 @@ export class FeedbackComponent {
           message: this.message
 
         }
-        this.cs.postComplaint(obj).subscribe({
+        this.cs.postFeedback(obj).subscribe({
           next: ()=>{
             alert("You enquiry is posted")
             this.fname="",

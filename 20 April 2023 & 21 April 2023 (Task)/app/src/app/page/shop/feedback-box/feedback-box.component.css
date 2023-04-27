@@ -1,0 +1,11 @@
+.text{
+    text-align: center;
+    border: 2px solid rgb(3, 3, 94);
+    border-radius: 5px;
+    color: rgb(3, 3, 94);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: 450px;
+    margin-left: 50px;
+
+}

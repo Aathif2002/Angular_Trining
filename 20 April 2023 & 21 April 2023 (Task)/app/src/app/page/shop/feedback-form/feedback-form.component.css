@@ -1,0 +1,37 @@
+.full{
+    border: 2px solid black;
+    margin: 30px;
+    box-sizing: border-box;
+    margin-left: 40px;
+    background-color: rgb(3, 3, 94);
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(3, 3, 94);
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+th{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+td{
+    padding-bottom: 10px;
+}
+.one{
+    color: white;
+    font-weight: bolder;
+}
+.two{
+    color: white;
+    font-weight: bolder;
+}
+.three{
+    color: white;
+    font-weight: bolder;
+}
